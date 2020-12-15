@@ -15,7 +15,7 @@ youtube-dl $url \
 --write-description \
 --write-info-json \
 --write-annotations \
---playlist-items 1-100 \
+--playlist-items 1-200 \
 --all-subs
 
 echo "Archiving done!"
