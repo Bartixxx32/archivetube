@@ -9,8 +9,7 @@ youtube-dl $url \
 --download-archive $path/downloaded.txt \
 -i \
 -o "$path/%(uploader)s/%(upload_date)s - %(title)s/%(uploader)s - %(title)s - %(upload_date)s %(id)s.%(ext)s" \
--f bestvideo+bestaudio \
---merge-output-format mkv \
+-f best \
 --write-thumbnail \
 --write-description \
 --write-info-json \
